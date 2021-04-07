@@ -1,10 +1,7 @@
-import users from '../faker/users'
+import { users } from '../faker'
 
 const { Router } = require('express')
 const router = Router()
-
-// Mock Users
-// const fakeUsers = users
 
 /* GET users listing. */
 router.get('/users', async (req, res, next) => {

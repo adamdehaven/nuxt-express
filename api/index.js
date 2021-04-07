@@ -1,10 +1,14 @@
 const express = require('express')
-
+const cors = require('cors')
 // Create express instance
 const app = express()
 
 // Require API routes
 const users = require('./routes/users')
+
+// CORS-enabled for all origins
+// http://expressjs.com/en/resources/middleware/cors.html
+app.use(cors())
 
 // Import API Routes
 app.use(users)
