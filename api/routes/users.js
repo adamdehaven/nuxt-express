@@ -1,4 +1,4 @@
-import { users } from '../faker'
+import { users } from '../mock'
 
 const { Router } = require('express')
 const router = Router()
