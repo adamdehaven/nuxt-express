@@ -1,6 +1,6 @@
 import { users } from '../mock'
+import { Router } from 'express'
 
-const { Router } = require('express')
 const router = Router()
 
 /* GET users listing. */
