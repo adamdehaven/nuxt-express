@@ -37,6 +37,7 @@ export default {
 
   serverMiddleware: {
     '/api': '~/api',
+    '/graphql': '~/api/graphql',
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
